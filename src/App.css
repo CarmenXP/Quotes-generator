@@ -5,13 +5,32 @@
     justify-content: center;
     align-items: center;
 }
+.contentQuote{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 1.2rem;
+    position: relative;
+}
+.bxs-quote-left{
+    position: absolute;
+}
+.box p:first-child{
+    background-color: antiquewhite;
+    padding-left: 65px;
+    padding-right: 15px;
+    text-align: center;
+}
+.box p:nth-child(2){
+    text-align: right;
+    padding-right: 15px;
+}
 .btnSend{
     padding: 10px 13px;
     border-radius: 50%;
     border:none;
     font-size: 18px;
     color: aliceblue;
-}
-.contentQuote{
-    background-color: aliceblue;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
