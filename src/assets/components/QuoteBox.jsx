@@ -6,7 +6,10 @@ const QuoteBox = ({color, quote, randomElements}) => {
     <div className='box' style={{color:color}}>
       <p>{quote.quote}</p>
       <p>{quote.author}</p>
-      <button onClick={randomElements} className="btnSend" style={{backgroundColor:color}}> &#62;</button>
+      <div className="btn">
+        <button onClick={randomElements} className="btnSend" style={{backgroundColor:color}}> &#62;</button>
+      </div>
+      
     </div>
   )
 }
